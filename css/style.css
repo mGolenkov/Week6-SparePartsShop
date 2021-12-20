@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2;
+}
+ 
+.service-image {
+    background-attachment: fixed;
+    text-align: center;
+    height: 65vh;
+    background-image: linear-gradient(to bottom right, #c0b0ab3d, #9f4f2780) , url(../img/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ 
+.service-image__text a {  
+    background-color: #493d1d63;
+    border: 2px solid #942f1e;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation-name: fallingDown;
+    animation-duration: 4s;
+    transition: all 0.5s ease-in-out;
+}
+ 
+@keyframes fallingDown {
+    0% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+ 
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+ 
+.service-image__text a:hover {
+   transform: scale(1.2);
+}
+ 
+.service-text {
+    background-color: #817774;
+    font-size: 1.5rem;
+    padding-top: 100px;
+    margin-top: -50px;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    clip-path: polygon(51% 6%, 100% 0, 100% 43%, 100% 100%, 68% 95%, 35% 91%, 0 86%, 0% 43%, 0 0);
+ 
+}
+ 
+ 
+.service-text h3 {
+    text-transform: uppercase;
+    color: #d6d6d6;
+    text-shadow: 0 0 3px #5c311c, 0 0 7px #998377; 
+}
+ 
+.service-text p {
+    color: #334326;
+}
+ 
+.diagnostics-image {
+    background-attachment: fixed;
+    text-align: center;
+    height: 60vh;
+    background-image: linear-gradient(to bottom right, #d5d0d560, #4d322038) , url(../img/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+ 
+.diagnostics-image__text a {  
+    background-color: #493d1d63;
+    border: 2px solid #dfdcde59;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+ 
+.diagnostics-image__text a:hover { 
+   transform: scale(1.2);
+}
+ 
+.diagnostics-text {
+    background-color: #8b4137;
+    font-size: 1.5rem;
+    padding-top: 100px;
+    margin-top: -50px;
+    height: 90vh;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+ 
+ 
+.diagnostics-text h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+ 
+.diagnostics-text p {
+    color: #b8977c;
+}
+ 
+.tuning-image {
+    background-attachment: fixed;
+    text-align: center;
+    height: 60vh;
+    background-image: linear-gradient(to bottom right, #d5d0d560, #4d322038) , url(../img/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    clip-path: polygon(50% 0, 100% 5%, 100% 43%, 100% 83%, 66% 90%, 36% 95%, 0 100%, 0% 43%, 0 6%);
+ 
+}
+ 
+.tuning-image__text a {  
+    background-color: #493d1d63;
+    border: 2px solid #dfdcde59;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+ 
+.tuning-image__text a:hover { 
+   transform: scale(1.2);
+}
+ 
+.footer {
+    background-color: #55524e;
+    font-size: 1.5rem;
+    height: 400px;
+    text-align: center;
+    margin-top: -150px;
+}
+ 
+.footer ul li {
+    display: inline-block;
+    margin-top: 200px;
+}
+ 
+.footer ul li a {
+    color: #f1e7dd;
+    text-decoration: none;
+    margin: 1rem;
+   
+}
+ 
+.footer ul li:hover, .footer ul li a:hover {
+    color: rgb(160, 145, 129);
+}
+ 
+.copyright {
+    color: #e5d9cc;
+}
